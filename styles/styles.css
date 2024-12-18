@@ -13,7 +13,7 @@ body {
     padding: 0;
 }
 
---font-default: "Inter", sans-serif;
+/*--font-default: "Inter", sans-serif;
 --font-article: "Tiempos Text", sans-serif;
 --font-heading-important: "Tiempos Headline", sans-serif;
 
@@ -113,6 +113,15 @@ h1 {
 
 }
 
+.search-wrapper {
+    display:flex;
+    flex-direction: column;
+    gap: 2rem;
+    font-size: 20px;
+    padding: 2em;
+}
+
+
 .popup .close-btn {
     cursor:pointer;
     position:absolute;
@@ -121,10 +130,10 @@ h1 {
     width:30px;
     height:30px;
     background:rgb(207, 85, 85);
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-size: 25px;
     font-weight: 600;
-    line-height: 30px;
+    line-height: 28px;
     text-align: center;
     border-radius:50%;
 }
@@ -134,20 +143,21 @@ h1 {
 }
 
 .popup.active .zoekcontent {
-    transition:all 300ms ease-in-out;
+    transition:all 200ms ease-in-out;
     transform:translate(-50%, -50%) scale(1);
 }
 
 button {
-    background-color: tomato;
-    color: rgb(0, 0, 0);
+    cursor:pointer;
+    border-color: transparent;
+    background-color: #f4f4f4;
 }
 
 nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 15px;
+    gap: 100px;
     padding: 10px;
 }
 
