@@ -1,8 +1,9 @@
 
+
 /* tablet styles */
 
 @media screen and (min-width:620px) {
-        
+
 body {
     display: flex;
     flex-direction: column;
@@ -16,25 +17,6 @@ body {
 /*--font-default: "Inter", sans-serif;
 --font-article: "Tiempos Text", sans-serif;
 --font-heading-important: "Tiempos Headline", sans-serif;
-
-header {
-    /* display: grid;
-    grid-row-start: 1;
-    grid-row-end: 4;
-    grid-column-start: 1 ;
-    grid-column-end: 13;
-
-    background-color: #ffffff;
-    border-bottom: 1px solid #ccc;
-    padding: 20px 20px;
-    text-align: right;
-    align-items: center;
-    text-decoration: none; */
-    /* display:flex;
-    flex-direction: row;
-    padding-bottom:20px; */
-
-}
 
 .header-container {
 
@@ -50,30 +32,73 @@ header {
 
     flex-wrap: wrap;
     text-align: right;
-    text-decoration: none; */
+    text-decoration: none; 
     display:flex;
     flex-direction: column;
-    gap: 1em;
-    align-items: center;
+    gap: .5em;
+    align-items: center; 
 }
 
 .header-container a {
     text-decoration: none;
-    color: #000;
+    color: #ffffff; */
+} 
+
+header {
+    font-family: ;
+    font-style: normal;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: -2%;
 }
 
-.upper {
+.uppernav  {
     background-color: #000;
-    color: white;
-    padding: 10px 20px;
-    text-align: right;
+    padding: 1em;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 1em;
 }
 
-.date {
-    font-size: 12px;
+.uppernav a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    margin-right: 1em;
+}
+
+.middelnav {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    background-color: white;
     color: #666;
-    text-align: left;
-    align-items: left;
+    text-align: center;
+    align-items: center;
+    padding:1em;
+}
+
+.middelnav a{
+    text-decoration:none;
+}
+
+.linkjes {
+    text-align: center;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-style: solid;
+    border-color: #e1e1e1;
+    border-width: 1px;
+}
+
+.linkjes a {
+    color: black;
+    text-decoration: none;
+    font-size: 16px;
+    margin: .5em;
+    align-items: center;
 }
 
 h1 {
@@ -104,12 +129,14 @@ h1 {
     left:50%;
     transform:translate(-50%, -50%) scale(0);
     background:#fff;
-    width:450px;
-    height:220px;
+    width:40em;
+    height:15em;
     z-index:2;
     text-align:center;
     padding:20px;
     box-sizing: border-box;
+    border-radius: 1.5em;
+
 
 }
 
@@ -150,22 +177,24 @@ h1 {
 button {
     cursor:pointer;
     border-color: transparent;
-    background-color: #f4f4f4;
+    background-color: transparent;
 }
 
-nav {
+/*nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 100px;
+    gap: 1em;
     padding: 10px;
 }
 
-nav a {
+/* nav a {
     text-decoration: none;
     color: #333;
     font-size: 14px;
-}
+    
+} */
+
 
 
 main {
@@ -239,9 +268,8 @@ figure {
 }
 
 .cover-image {
-    width: 100%;
-    height: 200px;
-    margin: 20px 0;
+    
+    width: 40em;
 }
 
 

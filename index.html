@@ -9,28 +9,28 @@
 </head>
 <body>
     <header>
-        <div class="header-container">
-            <div class="upper">
-            <nav>
+        <div class="upper">
+            <nav class="uppernav">
                 <a href="#">Colofon</a>
                 <a href="#">Over</a>
                 <a href="#">Meedoen</a>
                 <a href="#">Contact</a>
-
             </nav>
-            </div>
-            <nav>
-                <div class="date">Vrijdag 13 September, 2024
-                    <br>Podium voor de journalistiek
-                </div>
-                <img src="assets/redperslogo.webp" alt="logo redpers" width="200" >   
-                <div>
+        </div>
+        <div class="middelnav">
+            Donderdag 18 December, 2024<br>
+            Podium voor de journalistiek
+                <img src="assets/redperslogo.webp" alt="logo redpers" width="100" >   
+                <div class="nieuwsdoneer">
                 <a href="#">Nieuwsbrief</a>
                 <a href="#">Doneren</a>
+                <button class="openPopup"><img src="assets/icoon-zoeken.svg" class="icon"></button>
+                </div>
+                
                 <div class="popup" id="popup-1">
                     <div class="overlay"></div>
                     <div class="zoekcontent">
-                        <div class="close-btn" onclick="togglePopup()">&times;
+                        <div class="close-btn closePopup">&times;
                         </div>
                             <div class="search-wrapper">
                                 <label for="search">Zoek een artikel</label>
@@ -38,10 +38,10 @@
                             </div>        
                     </div>
                 </div>
-                <button onclick="togglePopup()"><img src="assets/icoon-zoeken.svg" class="icon"></button>
-            </div>
-            </nav>
-            <nav>
+                
+        </div>
+        <div class="linkjes">
+                <nav>
                 <a href="#">Voorpagina</a>
                 <a href="#">Binnenland</a>
                 <a href="#">Buitenland</a>
@@ -51,8 +51,9 @@
                 <a href="#">Podcasts</a>
                 <a href="#">Politiek</a>
                 <a href="#">Wetenschap</a>
-            </nav>
+                </nav>
             </div>
+        </div>
     </header>
 
     <main>
