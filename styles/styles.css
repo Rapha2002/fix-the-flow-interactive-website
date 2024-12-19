@@ -75,11 +75,18 @@ header {
     color: #666;
     text-align: center;
     align-items: center;
-    padding:1em;
+    padding:1.7em;
 }
 
 .middelnav a{
     text-decoration:none;
+}
+
+.nieuwsdoneer a {
+    color: black;
+
+    margin-right: 1em;
+
 }
 
 .linkjes {
@@ -129,7 +136,7 @@ h1 {
     left:50%;
     transform:translate(-50%, -50%) scale(0);
     background:#fff;
-    width:40em;
+    width:30em;
     height:15em;
     z-index:2;
     text-align:center;
