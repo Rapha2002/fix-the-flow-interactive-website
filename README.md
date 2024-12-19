@@ -12,7 +12,7 @@ Red Pers met zoekfunctie
 <!-- Voeg een mooie poster visual toe 📸 -->
 <!-- Voeg een link toe naar Github Pages 🌐-->
 Ik heb aanpassingen gemaakt aan het ontwerp om dichterbij de huisstijl van Red Pers te komen.
-De pagina bevat nu een zoekfunctie. Klik rechtsboven op het vergrootglas-icoontje en er verschijnt een popup. Je kan nu typen in het zoekveld, alleen verschijnen er geen zoekresultaten (zoekfunctie is alleen visueel).
+De pagina bevat nu een zoekfunctie. Klik rechtsboven op het vergrootglas-icoontje en er verschijnt een popup. Je kan nu typen in het zoekveld, alleen verschijnen er geen zoekresultaten (zoekfunctie is alleen visueel). Link naar videovoorbeeld: https://github.com/Rapha2002/fix-the-flow-interactive-website/issues/10
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met JS gedaan en hoe? -->
